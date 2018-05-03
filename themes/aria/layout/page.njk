@@ -1,0 +1,37 @@
+{% if page.layout == "index" or page.type == "index" or is_home() %}
+{% include "index.njk" %}
+{% elif page.layout == "archive" or page.type == "archive" or is_archive() %}
+{% include "archive.njk" %}
+{% elif page.layout == "categories" or page.type == "categories" %}
+{% include "categories.njk" %}
+{% elif page.layout == "category" or page.type == "category" or is_category() %}
+{% include "category.njk" %}
+{% elif page.layout == "tags" or page.type == "tags" %}
+{% include "tags.njk" %}
+{% elif page.layout == "tag" or page.type == "tag" or is_tag() %}
+{% include "tag.njk" %}
+{% else %}
+{% extends "_layout.njk" %}
+{% block title %}{{ __(page.title) }} | {{ config.title }}{% endblock %}
+
+{% block content %}
+<section id="page-content" class="page-content">
+  <article class="page-article card{% if theme.animate %} animate{% endif %}">
+    <header class="page-header">
+      <h1 class="page-title" itemprop="name headline">
+        <span class="{% if post.direction and post.direction.toLowerCase() == \"rtl\" %} rtl{% endif %}">{{ __(page.title) }}</span>
+      </h1>
+    </header>
+    <main class="page-main">
+      <div class="page-container">
+        {{ page.content }}
+      </div>
+    </main>
+    <footer class="page-footer"></footer>
+  </article>
+  {% if theme.comment.enable %}
+  {% include "comment.njk" %}
+  {% endif %}
+</section>
+{% endblock %}
+{% endif %}
