@@ -98,7 +98,7 @@ lib_cdn:
 
 social:
   GitHub:
-    link: https://pinkayo.github.io
+    link: https://github.com/pinkayo
     icon: fab fa-github
 
 
@@ -112,10 +112,3 @@ comment:
   enable: false
   hypercomments_id:
   disqus_shortname:
-
-reward:
-  enable: false
-  comment: 
-  wechatpay_qrcode: images/WeChatPay.png
-  alipay_qrcode: images/AliPay.png
-  bitcoin_qrcode:

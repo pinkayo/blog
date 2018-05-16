@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hsin
+title: Hsin筆記
 subtitle:
 description:
 keywords:
@@ -96,3 +96,5 @@ feed:
   content:
   content_limit: 140
   content_limit_delim: ' '
+  # Google統計
+  google_analytics: your-analytics-id
