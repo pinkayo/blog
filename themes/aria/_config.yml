@@ -104,9 +104,9 @@ social:
 
 # Title: Links
 blogroll:
-  MDN: https://developer.mozilla.org/
-  Nunjucks: https://mozilla.github.io/nunjucks/
-  Stylus: http://stylus-lang.com/
+  xian: https://www.developer.idv.tw
+  hui: https://www.yahuihu.info
+  chunyi: https://www.chunyi.info
 
 comment:
   enable: false
