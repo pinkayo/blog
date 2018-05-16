@@ -6,6 +6,7 @@ tags:
 在建立ssh key時請先安裝[git for windows](https://git-scm.com/download/win)套件。
 設定Github上的名稱與註冊電子信箱
 
+
         git config --global user.name "github名稱"
         git config --global user.email "github註冊的電子信箱"
 
