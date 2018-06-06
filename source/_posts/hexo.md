@@ -34,13 +34,28 @@ hexo server                #啟動local端server
 
 ![hexo](/img/hexo.png)
 
-新建一篇部落格文章
+## 更換部落格主題
+到[HEXO的官網](https://hexo.io/themes/)尋找主題，這邊以主題：NexT當範例
+
+![NexT](/img/NexT.png)
+
+開啟整合式終端機輸入紅框處主題載點
+
+`git clone https://github.com/theme-next/hexo-theme-next themes/next`
+
+找到部落格框架的設定檔(\_config.yml)theme：後進行修改並存檔
+
+![theme](/img/theme.png)
+
+## 新建一篇部落格文章
 
 `hexo new "文章名稱"`
 
 ![blog](/img/blog.png)
 
-將部落格推送到Github前，先修改部落格框架的設定檔(\_config.yml)後進行存檔
+## 部落格推送到Github
+
+將部落格推送到Github前，找到部落格框架的設定檔(\_config.yml)deploy：後進行修改並存檔
 
 `deploy:`
 `type: git`
