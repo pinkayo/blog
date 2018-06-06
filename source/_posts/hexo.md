@@ -64,7 +64,7 @@ hexo server                #啟動local端server
 
 ![git](/img/git.png)
 
-然後安裝Git佈署套件(整合式終端機輸入指令)
+然後安裝Git佈署套件(開啟整合式終端機輸入指令)
 
 `npm install hexo-deployer-git — save`
 
