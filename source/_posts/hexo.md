@@ -47,7 +47,7 @@ hexo server                #啟動local端server
 
 ![theme](/img/theme.png)
 
-接著再找到language： zh-tw和timezone： Asia/Taipei進行修改讓部落格設定成支援繁體中文與台灣時區
+接著再找到language： zh_tw和timezone： Asia/Taipei進行修改讓部落格設定成支援繁體中文與台灣時區
 
 ![lan](/img/lan.png)
 
