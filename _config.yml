@@ -97,4 +97,4 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   # Google統計
-  google_analytics: your-analytics-id
+  google_analytics: UA-120467554-1
