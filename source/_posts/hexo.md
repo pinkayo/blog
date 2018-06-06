@@ -43,9 +43,13 @@ hexo server                #啟動local端server
 
 `git clone https://github.com/theme-next/hexo-theme-next themes/next`
 
-找到部落格框架的設定檔(\_config.yml)theme：後進行修改並存檔
+找到部落格框架的設定檔(\_config.yml)theme：後進行修改
 
 ![theme](/img/theme.png)
+
+接著再找到language：和timezone：進行修改讓部落格設定成支援繁體中文與台灣時區
+
+![lan](/img/lan.png)
 
 再到剛剛下載的主題資料夾進行更名(**next**)並將.git資料夾刪除(**隱藏檔**)
 
