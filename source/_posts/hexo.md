@@ -29,7 +29,7 @@ npm install                #安裝npm套件
 hexo server                #啟動local端server
 ```
 
-在D槽先建立一個資料夾名稱，進入此資料夾右鍵使用Open with Code，開啟整合式終端機(快捷鍵<kbd>Ctrl</kbd> + <kbd>\`</kbd>)依序輸入上面1~5的步驟
+在D槽先建立一個資料夾名稱，進入此資料夾右鍵使用Open with Code，開啟整合式終端機快捷鍵<kbd>Ctrl</kbd> + <kbd>\`</kbd> <kbd>Ctrl+`</kbd>依序輸入上面1~5的步驟
 接著打開瀏覽器輸入localhost:4000，進入部落格的世界~
 
 ![hexo](/img/hexo.png)
