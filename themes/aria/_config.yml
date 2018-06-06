@@ -57,7 +57,7 @@ sidebar: left
 animate: false
 
 busuanzi: true
-
+busuanzi_site_offset: 100000
 # If you want to use MathJax, first fill a CDN link like
 # `cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-MML-AM_CHTML`.
 # And set front-matter `mathjax: true` to the page you want to use it.
