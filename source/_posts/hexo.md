@@ -47,6 +47,10 @@ hexo server                #啟動local端server
 
 ![theme](/img/theme.png)
 
+再到剛剛下載的主題資料夾進行更名(**next**)並將.git資料夾刪除(**隱藏檔**)
+
+![git0](/img/git0.png)
+
 ## 新建一篇部落格文章
 
 `hexo new "文章名稱"`
