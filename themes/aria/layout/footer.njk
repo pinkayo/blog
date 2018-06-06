@@ -1,33 +1,18 @@
-{% block footer %}
-<footer id="footer" class="footer">
-  <div class="container">
-    <div class="back-to-top">
-      <a id="back-to-top"><i class="fas fa-angle-double-up"></i></a>
-    </div>
-    <div class="footer-container">
-      <div class="footer-left">
-        <div class="copyright">
-          <span class="author">{{ config.author }}</span>
-          <span class="year"><i class="far fa-copyright"></i> {% if theme.since %}{{ theme.since }}{% if moment().format("YYYY") != theme.since %} - {{ moment().format("YYYY") }}{% endif %}{% else %}{{ moment().format("YYYY") }}{% endif %}</span>
-          {% if theme.creative_commons %}
-          <span class="creative-commons"><i class="fab fa-creative-commons"></i> <a href="http://creativecommons.org/licenses/{{ theme.creative_commons }}/4.0/" target="_blank">{{ theme.creative_commons.toUpperCase() }} 4.0</a></span>
-          {% endif %}
-        </div>
-        {% if theme.busuanzi %}
-        {% include "busuanzi.njk" %}
-        {% endif %}
-      </div>
-      <div class="footer-right">
-        <div class="custom-info">
-          {% if theme.custom_info %}
-          {{ theme.custom_info }}
-          {% endif %}
-        </div>
-        <div class="powered-by">
-          {{_p("poweredby", "<a href=\"https://hexo.io/\" target=\"_blank\">Hexo</a>")}} | {{ _p("theme", "<a href=\"https://github.com/AlynxZhou/hexo-theme-aria/\" target=\"_blank\">ARIA</a>") }}
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-{% endblock %}
+{% if theme.busuanzi %}
+<!-- 不蒜子 -->
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 不蒜子计数初始值纠正 -->
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var int = setInterval(fixCount, 100);
+        var busuanziSiteOffset = parseInt({{ theme.busuanzi_site_offset }});
+        function fixCount() {
+            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                clearInterval(int);
+                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
+            }
+        }
+    });
+</script>
+{% endif %}
