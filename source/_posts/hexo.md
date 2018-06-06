@@ -21,11 +21,13 @@ Hexo由Node.js寫成，所以在使用Hexo前需先安裝[Node.js](https://nodej
 備註：安裝Visual Studio Code過程需將紅框處打勾
 ![vsc](/img/vsc.png)
 
-`npm install hexo-cli -g    #安裝Hexo框架`
-`hexo init blog             #初始化blog資料夾`
-`cd blog                    #切換至blog資料夾`
-`npm install                #安裝npm套件`
-`hexo server                #啟動local端server`
+```
+npm install hexo-cli -g    #安裝Hexo框架
+hexo init blog             #初始化blog資料夾
+cd blog                    #切換至blog資料夾
+npm install                #安裝npm套件
+hexo server                #啟動local端server
+```
 
 在D槽先建立一個資料夾名稱，進入此資料夾右鍵使用Open with Code，開啟整合式終端機(快捷鍵<kbd>Ctrl + <kbd>\`</kbd></kbd>)依序輸入上面1~5的步驟
 接著打開瀏覽器輸入localhost:4000，進入部落格的世界~
