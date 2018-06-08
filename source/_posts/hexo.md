@@ -100,7 +100,7 @@ hexo server                #啟動local端server
 開啟Tortoisegit setting -> GIT -> Remote 並設定
 
 `Remote: origin`
-`URL:git@github.com:你的ID/blog.git`
+`URL: git@github.com:你的ID/blog.git`
 
 Commit後在點選推送就會傳送到倉庫(blog)
 
