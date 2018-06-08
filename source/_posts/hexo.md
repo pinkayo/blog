@@ -82,3 +82,27 @@ hexo server                #啟動local端server
 `hexo d #佈署到倉庫`
 
 開啟瀏覽器輸入 你的ID.github.io 就能看到部落格成功丟上去了
+
+## 其他台電腦進行發佈文章
+
+登入Github 建立一個新倉庫 命名為blog
+
+![cblog](/img/cblog.png)
+
+到D槽進入剛剛自行建立的資料夾裡找到blog資料夾，右建使用Open with Code開啟後並於整合式終端機輸入
+
+`git init #初始化這個目錄，讓 Git 對這個目錄進行版控`
+
+設定部落格文章原始檔 傳送至 剛剛新建的倉庫(blog)
+
+![tortoise](/img/tortoise.png)
+
+開啟Tortoisegit setting -> GIT -> Remote 並設定
+
+`Remote: origin`
+`URL:git@github.com:你的ID/blog.git`
+
+Commit後在點選推送就會傳送到倉庫(blog)
+
+![commit](/img/commit.png)
+
