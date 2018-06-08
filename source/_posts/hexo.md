@@ -63,7 +63,13 @@ hexo server                #啟動local端server
 
 ## 部落格推送到Github
 
-將部落格推送到Github前，找到部落格框架的設定檔(\_config.yml)deploy：後進行修改並存檔
+將部落格推送到Github前，先來瞭解一下推送的流程。
+
+![hexogd](/img/hexogd.png)
+
+![repo](/img/repo.png)
+
+找到部落格框架的設定檔(\_config.yml)deploy：後進行修改並存檔
 
 `deploy:`
 `type: git`
