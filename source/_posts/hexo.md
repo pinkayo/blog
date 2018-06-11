@@ -99,7 +99,11 @@ hexo server                #啟動local端server
 
 `git init #初始化這個目錄，讓 Git 對這個目錄進行版控`
 
-安裝![tortoisegit](https://tortoisegit.org/)後設定部落格文章原始檔 傳送至 剛剛新建的倉庫(blog)
+安裝[tortoisegit](https://tortoisegit.org/)後
+
+![tortoisegit](/img/tortoisegit.png)
+
+設定部落格文章原始檔 傳送至 剛剛新建的倉庫(blog)
 
 ![tortoise](/img/tortoise.png)
 
