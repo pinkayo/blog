@@ -108,6 +108,10 @@ hexo server                #啟動local端server
 `Remote: origin`
 `URL: git@github.com:你的ID/blog.git`
 
+設定Tortoisegit使用git的ssh程式推送
+
+![ssh](/img/ssh.png)
+
 Commit後在點選推送就會傳送到倉庫(blog)
 
 ![commit](/img/commit.png)
